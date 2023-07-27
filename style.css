@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.first {
+    height: auto;
+    width: 100%;
+
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+
+}
+
+.navbar button {
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+    border-radius: 15px;
+    padding: 20px 50px 20px 50px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: rgba(207, 204, 204, 0.432);
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#profile {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
+    border-radius: 50%;
+    border: 5px solid white;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+
+.about {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    clear: left;
+    font-size: 20px;
+}
+
+
+.demTable {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    padding: 20px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.demTable th {
+    border: 1px solid #000000;
+    padding: 20px;
+    background: #474747;
+    color: #000000;
+    text-shadow: 1px 1px 5px white;
+    font-size: 23px;
+}
+
+.demTable th:hover {
+    background: #363636;
+}
+
+.demTable td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 20px;
+    background: #adadad;
+    color: #000000;
+    font-size: 18px;
+}
+
+.demTable td a {
+    color: black;
+    text-decoration: none;
+}
+
+.demTable td:hover {
+    background: #e6e6e633;
+    /* text-shadow: 1px 1px 4px white; */
+}
+
+.cir {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.705);
+    box-sizing: border-box;
+    padding: 70px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: larger;
+    rotate: 0deg;
+    transition: rotate 0.7s;
+    cursor: pointer;
+}
+
+.cir:hover {
+    rotate: 360deg;
+}
+
+.ntse {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+.kvpy {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.jm {
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    padding-top: 60px;
+}
+
+.ja {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    padding-top: 60px;
+}
+
+.await {
+    position: absolute;
+    top: 25%;
+    left: 79%;
+    padding-top: 83px;
+    padding-left: 65px;
+}
+
+.cntct {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.demTable2 {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.demTable2 td {
+    border: 1px solid #bdbdbd;
+    text-align: center;
+    padding: 40px;
+    background: #7c7c7c9c;
+    color: #ffffff;
+}
+
+.demTable2 td:hover {
+    background-color: #c9c9c9cb;
+}
+
+.demTable2 td a {
+    color: white;
+    text-decoration: none;
+}
+
