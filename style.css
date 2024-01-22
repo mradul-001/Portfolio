@@ -5,6 +5,7 @@
 body {
     margin: 0;
     background-color: #000000;
+    overflow: hidden;
 }
 
 .first {
@@ -45,12 +46,22 @@ body {
     text-decoration: none;
 }
 
+.main0{
+    width: 100vw;
+    min-height: 100px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    display: flex;
+    align-items: center;
+}
+
 #profile {
     height: 250px;
     width: 250px;
     position: absolute;
-    top: 50vh;
-    left: 20vw;
+    top: 50%;
+    left: 20%;
     border-radius: 50%;
     border: 5px solid white;
     transform: translate(-50%, -50%);
@@ -115,58 +126,6 @@ body {
     /* text-shadow: 1px 1px 4px white; */
 }
 
-.cir {
-    height: 200px;
-    width: 200px;
-    background-color: rgba(255, 255, 255, 0.705);
-    box-sizing: border-box;
-    padding: 70px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: larger;
-    rotate: 0deg;
-    transition: rotate 0.7s;
-    cursor: pointer;
-}
-
-.cir:hover {
-    rotate: 360deg;
-}
-
-.ntse {
-    position: absolute;
-    top: 25%;
-    left: 7%;
-}
-
-.kvpy {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-}
-
-.jm {
-    position: absolute;
-    top: 25%;
-    left: 43%;
-    padding-top: 60px;
-}
-
-.ja {
-    position: absolute;
-    top: 50%;
-    left: 61%;
-    padding-top: 60px;
-}
-
-.await {
-    position: absolute;
-    top: 25%;
-    left: 79%;
-    padding-top: 83px;
-    padding-left: 65px;
-}
-
 .cntct {
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -177,33 +136,36 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.demTable2 {
-    border: 1px solid #ffffff;
-    border-collapse: collapse;
-    padding: 20px;
+.main{
     position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    font-family: cursive;
-    font-size: 20px;
+    bottom: 50%;
+    width: 100vw;
+    transform: translateY(50%);
 }
 
-.demTable2 td {
-    border: 1px solid #bdbdbd;
-    text-align: center;
-    padding: 40px;
-    background: #7c7c7c9c;
+.main .text{
+    width: 100%;
+    font-size: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ffffff;
+    text-align: center;
 }
 
-.demTable2 td:hover {
-    background-color: #c9c9c9cb;
+.main img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 100px 80px;
+    transition: transform .5s;
 }
 
-.demTable2 td a {
-    color: white;
-    text-decoration: none;
+.main img:hover{
+    transform: rotate(360deg);
 }
 
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
